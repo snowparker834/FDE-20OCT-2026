@@ -1,0 +1,65 @@
+Hi everyone,
+
+You completed the verification form, so you're on the list and the challenge is open. Here's everything you need.
+
+Who this is for — worth restating before you spend four weeks on it
+
+This challenge is open to Accenture employees in the Americas market, in Digital Core (RP / Tech RE), at any level and any track, who are not already FDE-certified.
+
+Two things to check against yourself:
+
+"Americas market" means your own market unit, not your client's. Several people registered based on working on an Americas account from another geography. That doesn't qualify, and we would much rather say so now than after you've put a month into it.
+If you already hold FDE certification, this isn't for you. The challenge exists to find people who haven't been through that route yet.
+Submissions are checked against the verified participant list before they are scored, so an entry from outside those criteria can't be credited however good it is.
+
+If you're not sure whether you qualify, email us this week — FDE_Labs_Challenge@accenture.com — rather than finding out in November. No hard feelings either way.
+
+Download your pack:https://myoffice.accenture.com/:u:/g/personal/a_a_enquobahrie_accenture_com/IQBF7qFgKk0WS5Y8sSiDnW6GAU-17mtdUgAfY7bYX47lKAA?e=Tut63G
+
+Inside is the data room, the client's policy, the record schema, and a working mock ERP API to build against. There is deliberately no starter code — the architecture is entirely yours. That's the single biggest thing we're scoring.
+
+Your deadline is Friday 13 November, 23:59 US Eastern. Four weeks, as a side project around your normal work. Convert that to your own time zone and put it in your calendar now.
+
+The first hour — do this today, not in week three
+
+Unzip the pack and open KICKOFF.md. Dates, rules, setup and FAQ, in five minutes.
+Run the environment check in §4 of that file. You need Python 3.11+. Make a venv, start the mock ERP, hit /health, then run python selfcheck.py from the pack root — it verifies your Python version and the fixed files, and you'll run it again before you submit. If /health answers and selfcheck.py says setup looks good, you're set up.
+Then read README.md (the brief) and current_state.docx (how the client does this today, and your KPI baseline).
+If step 2 fails, email us this week with the exact error message. Don't lose a Saturday to a PATH problem.
+
+What you're building
+
+Atlas Industrial inherited a chaotic data room of vendor contracts — PDFs, Word docs, a low-quality scan, a forwarded email, a legacy spreadsheet. Analysts clear it by hand today: open each document, hand-key fields into the ERP, eyeball the risk, email Legal for anything unusual. Slow, error-prone, no record of why any decision was made.
+
+Replace it with an agentic system, and prove the improvement with KPIs. The inputs are messy, the output format is strict, the policy is non-negotiable, and the integration is live. How you get from one to the other is your call.
+
+Three things that catch people out, so they're worth saying plainly:
+
+The mock ERP and the schemas are fixed. Don't edit, wrap, proxy or patch them. They're checksum-verified and the judges run your work against the same API. This is the one rule with an automatic consequence.
+Keep a build trail as you go. How you specced the problem, how you drove your AI tooling, where it got things wrong and how you steered it. It's scored, the finalist interview covers the same ground, and reasoning we can't see we can't credit. Mostly it's just far easier to write down in the moment than to reconstruct in week four. If you work in git, leave the .gitfolder in your zip — useful corroboration, not required.
+Reserve the last three days for the architecture note, the KPI summary and the demo recording. People routinely under-budget the write-up and lose marks on work they genuinely did.
+Full detail is in the pack. The attached one-pager is the whole thing on a single page — print it, pin it.
+
+Questions — by email only: FDE_Labs_Challenge@accenture.com
+
+There are no office hours or calls. Email us about problems with the pack (include your operating system, Python version and the exact error) or genuine ambiguities in the brief. Anything that affects everyone gets answered to the whole group in an FAQ note, so nobody gains from asking first. Please allow a few working days for a reply.
+
+We won't give design help: not "is this architecture right", not "should this document be escalated". Those are exactly what's being scored, and answering them for one person would be unfair to everyone else. Ask anyway if you like — the answer will be a friendly no.
+
+The dates
+
+
+
+Today, Mon 19 Oct
+Pack released, four-week clock starts
+Fri 13 Nov, 23:59 ET
+Hard deadline
+From 16 Nov
+Judging: automated checks, panel review, finalist interviews
+Early Dec
+Winners announced across Digital Core
+How judging works is set out in SUBMISSION.md §6, including one thing worth knowing up front: we don't give individual feedback. Everyone hears whether they advanced; nobody gets a score or a critique.
+
+How you submit is in SUBMISSION.md in the pack — read it in week one, not week four, because it tells you what to keep as you go. In short: you share your zip from your own OneDrive and submit a short form, which closes itself at the deadline. The form link is in SUBMISSION.md.
+
+FDE Labs Challenge Team
